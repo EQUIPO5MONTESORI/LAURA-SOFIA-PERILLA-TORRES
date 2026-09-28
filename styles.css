@@ -1,6 +1,21 @@
-body{
-  padding: 25px;
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	front-family:  playfair Display, sans-serif;
 }
-.title {
-	color: #5C6AC4;
+
+body{
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+	min-height: 100vh;
+	min-height: 100dvh;
+}
+.header{
+	background-color: rgba(245, 40, 145, 0.8);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1rem 2rem;
 }
