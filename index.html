@@ -84,3 +84,87 @@
 </body>
 </html>
 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de Sofia</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header class="header">
+        <h1 class="title"
+            data-es="¡Página de Sofía!"
+            data-en="Sophia's Page!">
+            ¡Página de Sofía!
+        </h1>
+
+        <nav>
+            <a href="#about-me"
+               data-es="Sobre mí"
+               data-en="About me">Sobre mí</a>
+
+            <a href="#proyecto-vida"
+               data-es="Mi proyecto de vida"
+               data-en="My life project">Mi proyecto de vida</a>
+        </nav>
+
+        <div class="languages">
+            <label for="btn-es">Español</label>
+            <button type="button" class="lang-button" id="btn-es"
+                    data-lang="es" aria-pressed="true">ES</button>
+
+            <label for="btn-en">English</label>
+            <button type="button" class="lang-button" id="btn-en"
+                    data-lang="en" aria-pressed="false">EN</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="section" id="about-me">
+            <h2 data-es="Sobre mí" data-en="About me">Sobre mí</h2>
+
+            <p data-es="Soy Sofía, estoy en grado décimo. Me gusta ver series, escuchar música, ver películas sobre guerra y aviones, ver TikToks, hablar con mis amigos, pasar tiempo con toda mi familia y jugar con mi perra."
+               data-en="My name is Sophia, and I am in tenth grade. I like watching TV series, listening to music, watching movies about war and airplanes, watching TikToks, talking to my friends, spending time with my whole family, and playing with my dog.">
+                Soy Sofía, estoy en grado décimo. Me gusta ver series,
+                escuchar música, ver películas sobre guerra y aviones,
+                ver TikToks, hablar con mis amigos, pasar tiempo con toda
+                mi familia y jugar con mi perra.
+            </p>
+        </section>
+
+        <section id="proyecto-vida" class="section">
+            <h2 data-es="Mi proyecto de vida"
+                data-en="My life project">
+                Mi proyecto de vida
+            </h2>
+
+            <p data-es="En el futuro, me veo siendo piloto de vuelos comerciales."
+               data-en="In the future, I see myself becoming a commercial airline pilot.">
+                En el futuro, me veo siendo piloto de vuelos comerciales.
+            </p>
+
+            <ul>
+                <li data-es="Graduarme del colegio"
+                    data-en="Graduate from high school">
+                    Graduarme del colegio
+                </li>
+
+                <li data-es="Graduarme como piloto"
+                    data-en="Graduate as a pilot">
+                    Graduarme como piloto
+                </li>
+
+                <li data-es="Tener un sueldo y una vida estable"
+                    data-en="Have a stable income and life">
+                    Tener un sueldo y una vida estable
+                </li>
+            </ul>
+        </section>
+    </main>
+
+</body>
+</html>
